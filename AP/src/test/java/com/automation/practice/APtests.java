@@ -61,7 +61,6 @@ public class APtests extends TestBase{
 	public void PurchaseTShirt(){
 		goTo.accountTab();
 		goTo.LoginPage().loginToAccountAs("autopractice14@autopractice.com", "12345");
-		goTo.tShirtTab();
 		goTo.TShirtPage().selectSleevTshirt();
 		goTo.SelectedProductPage().withBlueColor().withMediumSize().addToCart();
 		goTo.CartPage()
@@ -73,9 +72,6 @@ public class APtests extends TestBase{
 		.summaryCheckOut()
 		.adddressCheckOut()
 		.verifyDelivery("My carrier Delivery next day!");
-
-		
-		
 	}
 
 }

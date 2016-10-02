@@ -25,11 +25,6 @@ public class Navigation extends BasePage {
 		NavigationPages().HomePage().selectSignInTab();
 	}
 	
-	public void tShirtTab(){
-		app.method("goTo T-Shirt tab");
-		NavigationPages().HomePage().selectTshirtTab();
-	}
-	
 	public CreateAccountPage CreateAccountPage(){
 		app.method("goTo createAccountTab");
 		Application().CreateAccountPage();
@@ -43,7 +38,7 @@ public class Navigation extends BasePage {
 	
 	public TShirtPage TShirtPage(){
 		app.method("goTo tshirtPage");
-		Application().TShirtPage();
+		NavigationPages().HomePage().selectTshirtTab();
 		return Application().TShirtPage();
 	}
 	
