@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [AP Smoke Test Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="main.resources.ExtentReporterNG"/>
+    <listener class-name="main.java.com.framework.TestListener"/>
+  </listeners>
+  <test name="Automation Practice Tests">
+    <groups>
+      <run>
+        <include name="ap"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.java.com.automation.practice.APtests"/>
+    </classes>
+  </test> <!-- Automation Practice Tests -->
+  <test name="Automation Practice Tests(failed)" parallel="classes">
+    <groups>
+      <run>
+        <include name="ap"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.java.com.automation.practice.APtests">
+        <methods>
+          <include name="CreateAccount"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.java.com.automation.practice.APtests -->
+    </classes>
+  </test> <!-- Automation Practice Tests(failed) -->
+</suite> <!-- Failed suite [AP Smoke Test Suite] -->
