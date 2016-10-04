@@ -131,12 +131,6 @@ public class BasePage {
 		errors.validateErrorMessage(errorMessage);
 		return this;
 	}
-	
-	public BasePage verifyWarning(String warningMessage){
-		errors.validateWarningMessage(warningMessage);
-		return this;
-	}
-	
 
 	public boolean isElementPresent(WebElement element) {
 		app.method("isElementPresent " + element);

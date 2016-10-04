@@ -15,8 +15,6 @@ public class AppManager {
 	
 	public AppManager() {
 		getBrowser().startBrowser();
-		//Webdriver native logging
-		//((RemoteWebDriver) getBrowser().getDriver()).setLogLevel(Level.WARNING);
 		}
 		
 	public Browser getBrowser() {

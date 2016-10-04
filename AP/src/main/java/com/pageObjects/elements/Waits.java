@@ -64,10 +64,6 @@ public class Waits extends BasePage {
 		new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOf(infobox));
 	}
 	
-	public void waitUntilOverlayWindowDissapear() {
-		waitForInvisibilityOfElement(20, By.id("TB_overlay"));
-	}
-	
 	public void waitUntilCartWindowAppear() {
 		waitForVisibilityOfElement(20, By.xpath("//*[@id='layer_cart']/div[1]/div[2]/div[4]/a/span"));
 	}
@@ -75,12 +71,4 @@ public class Waits extends BasePage {
 	public void waitForElementToBeDisabled(WebElement element) {
 		waitForAttributeToBe(element, "disabled", "true");
 	}
-
-	public void waitForDiamondMessageToDisappear() {
-		By diamondMessage = By.id("wait_mask");
-		if(isElementPresent(diamondMessage)){
-			waitForInvisibilityOfElement(35, diamondMessage);
-		}
-	}
-	
 }
