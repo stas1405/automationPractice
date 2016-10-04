@@ -19333,3 +19333,127 @@ Session ID: 135217db-5b34-4b3b-8507-4e071222176d !!!!!!!!!!!!!!
 2016-10-02 00:02:03.803 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- [[[[ChromeDriver: chrome on XP (f85a123249b3045493c0baf524358c69)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
 2016-10-02 00:02:05.067 [pool-1-thread-1] WARN  logExceptions - !!!!!!!!!!!!!!!!!! Exception logged - Stale element exception !!!!!!!!!!!!!! 
 2016-10-02 00:02:05.068 [pool-1-thread-1] INFO  method - ------------- goTo LoginTab
+2016-10-03 21:57:31.252 [pool-1-thread-1] INFO  logInfo - -------------------------------------------- ^^^^^^^^^^^^^^^^ Test setUp ^^^^^^^^^^^^^^^^ --------------
+2016-10-03 21:57:38.135 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case CreateAccountWithWrongPostalCode*****
+2016-10-03 21:57:38.144 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case CreateAccountWithWrongPostalCode*****
+2016-10-03 21:57:38.145 [pool-1-thread-1] INFO  method - ------------- goTo accountTab
+2016-10-03 21:57:38.501 [pool-1-thread-1] INFO  logClass - --- HomePage ------------------------ 
+2016-10-03 21:57:38.503 [pool-1-thread-1] INFO  method - ------------- selectSignInTab
+2016-10-03 21:57:38.598 [pool-1-thread-1] INFO  method - ------------- selecting Tab [[[[ChromeDriver: chrome on XP (0c527f52dece162fb0e2484e5075bd8d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 21:57:38.626 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- [[[[ChromeDriver: chrome on XP (0c527f52dece162fb0e2484e5075bd8d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 21:57:40.134 [pool-1-thread-1] WARN  logExceptions - !!!!!!!!!!!!!!!!!! Exception logged - Stale element exception !!!!!!!!!!!!!! 
+2016-10-03 21:57:40.135 [pool-1-thread-1] INFO  method - ------------- goTo createAccountTab
+2016-10-03 21:57:40.149 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field User Email = autopractice100@autopractice.com
+2016-10-03 21:57:40.360 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- Btn Sign Up
+2016-10-03 21:57:40.482 [pool-1-thread-1] INFO  method - ------------- goTo registerUserPage
+2016-10-03 21:57:40.499 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- Radio Gender Male
+2016-10-03 21:57:41.693 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Customer First Name = John
+2016-10-03 21:57:41.877 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Customer Last Name = Smith
+2016-10-03 21:57:42.094 [pool-1-thread-1] INFO  method - ------------- SELECTING BY VALUE --- Drop Down Days = 14
+2016-10-03 21:57:42.396 [pool-1-thread-1] INFO  method - ------------- SELECTING BY VALUE --- Drop Down Months = 12
+2016-10-03 21:57:42.638 [pool-1-thread-1] INFO  method - ------------- SELECTING BY VALUE --- Drop Down Years = 1990
+2016-10-03 21:57:42.839 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Passwd = 12345
+2016-10-03 21:57:43.014 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Address = 1234 w23th Ave
+2016-10-03 21:57:43.199 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field City = New York
+2016-10-03 21:57:43.383 [pool-1-thread-1] INFO  method - ------------- SELECTING BY VISIBLE TEXT --- Drop Down State = Indiana
+2016-10-03 21:57:43.553 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Post Code = V5T1HR
+2016-10-03 21:57:43.704 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Phone Mobile = 7756457009
+2016-10-03 21:57:43.853 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- Btn Submit Acc
+2016-10-03 21:57:44.997 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case CreateAccount*****
+2016-10-03 21:57:45.003 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case CreateAccount*****
+2016-10-03 21:57:45.003 [pool-1-thread-1] INFO  method - ------------- goTo accountTab
+2016-10-03 21:57:45.003 [pool-1-thread-1] INFO  method - ------------- selectSignInTab
+2016-10-03 21:57:45.053 [pool-1-thread-1] INFO  method - ------------- selecting Tab [[[[ChromeDriver: chrome on XP (0c527f52dece162fb0e2484e5075bd8d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 21:57:45.067 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- [[[[ChromeDriver: chrome on XP (0c527f52dece162fb0e2484e5075bd8d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 21:57:46.065 [pool-1-thread-1] WARN  logExceptions - !!!!!!!!!!!!!!!!!! Exception logged - Stale element exception !!!!!!!!!!!!!! 
+2016-10-03 21:57:46.066 [pool-1-thread-1] INFO  method - ------------- goTo createAccountTab
+2016-10-03 21:57:46.066 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field User Email = autopractice14@autopractice.com
+2016-10-03 21:57:46.266 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- Btn Sign Up
+2016-10-03 21:57:46.368 [pool-1-thread-1] INFO  method - ------------- goTo registerUserPage
+2016-10-03 21:57:46.368 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- Radio Gender Male
+2016-10-03 21:57:52.342 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case Login*****
+2016-10-03 21:57:52.345 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case Login*****
+2016-10-03 21:57:52.345 [pool-1-thread-1] INFO  method - ------------- goTo accountTab
+2016-10-03 21:57:52.346 [pool-1-thread-1] INFO  method - ------------- selectSignInTab
+2016-10-03 21:57:52.390 [pool-1-thread-1] INFO  method - ------------- selecting Tab [[[[ChromeDriver: chrome on XP (0c527f52dece162fb0e2484e5075bd8d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 21:57:52.403 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- [[[[ChromeDriver: chrome on XP (0c527f52dece162fb0e2484e5075bd8d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 21:57:53.653 [pool-1-thread-1] WARN  logExceptions - !!!!!!!!!!!!!!!!!! Exception logged - Stale element exception !!!!!!!!!!!!!! 
+2016-10-03 21:57:53.653 [pool-1-thread-1] INFO  method - ------------- goTo LoginTab
+2016-10-03 21:57:53.659 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field User Email = autopractice15@autopractice.com
+2016-10-03 21:57:53.839 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Password = 12345
+2016-10-03 21:57:53.975 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- Btn Sign In
+2016-10-03 21:57:54.793 [pool-1-thread-1] INFO  method - ------------- signOut
+2016-10-03 21:57:54.793 [pool-1-thread-1] INFO  method - ------------- selectSignOutTab
+2016-10-03 21:57:54.846 [pool-1-thread-1] INFO  method - ------------- selecting Tab [[[[ChromeDriver: chrome on XP (0c527f52dece162fb0e2484e5075bd8d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[2]/a]] -> xpath: ./..]
+2016-10-03 21:57:54.860 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- [[[[ChromeDriver: chrome on XP (0c527f52dece162fb0e2484e5075bd8d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[2]/a]] -> xpath: ./..]
+2016-10-03 21:57:55.763 [pool-1-thread-1] WARN  logExceptions - !!!!!!!!!!!!!!!!!! Exception logged - Stale element exception !!!!!!!!!!!!!! 
+2016-10-03 21:57:55.768 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case PurchaseTShirt*****
+2016-10-03 21:57:55.770 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case PurchaseTShirt*****
+2016-10-03 21:57:55.770 [pool-1-thread-1] INFO  method - ------------- goTo accountTab
+2016-10-03 21:57:55.771 [pool-1-thread-1] INFO  method - ------------- selectSignInTab
+2016-10-03 21:57:55.819 [pool-1-thread-1] INFO  method - ------------- selecting Tab [[[[ChromeDriver: chrome on XP (0c527f52dece162fb0e2484e5075bd8d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 21:57:55.832 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- [[[[ChromeDriver: chrome on XP (0c527f52dece162fb0e2484e5075bd8d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 21:57:56.893 [pool-1-thread-1] WARN  logExceptions - !!!!!!!!!!!!!!!!!! Exception logged - Stale element exception !!!!!!!!!!!!!! 
+2016-10-03 21:57:56.893 [pool-1-thread-1] INFO  method - ------------- goTo LoginTab
+2016-10-03 22:08:46.379 [pool-1-thread-1] INFO  logInfo - -------------------------------------------- ^^^^^^^^^^^^^^^^ Test setUp ^^^^^^^^^^^^^^^^ --------------
+2016-10-03 22:08:51.744 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case CreateAccountWithWrongPostalCode*****
+2016-10-03 22:08:51.750 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case CreateAccountWithWrongPostalCode*****
+2016-10-03 22:08:51.750 [pool-1-thread-1] INFO  method - ------------- goTo accountTab
+2016-10-03 22:08:51.860 [pool-1-thread-1] INFO  logClass - --- HomePage ------------------------ 
+2016-10-03 22:08:51.863 [pool-1-thread-1] INFO  method - ------------- selectSignInTab
+2016-10-03 22:08:51.915 [pool-1-thread-1] INFO  method - ------------- selecting Tab [[[[ChromeDriver: chrome on XP (f1ab9cf922d99ed2883351abeb9ec05d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 22:08:51.928 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- [[[[ChromeDriver: chrome on XP (f1ab9cf922d99ed2883351abeb9ec05d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 22:08:53.214 [pool-1-thread-1] WARN  logExceptions - !!!!!!!!!!!!!!!!!! Exception logged - Stale element exception !!!!!!!!!!!!!! 
+2016-10-03 22:08:53.215 [pool-1-thread-1] INFO  method - ------------- goTo createAccountTab
+2016-10-03 22:08:53.228 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field User Email = autopractice100@autopractice.com
+2016-10-03 22:08:53.420 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- Btn Sign Up
+2016-10-03 22:08:53.564 [pool-1-thread-1] INFO  method - ------------- goTo registerUserPage
+2016-10-03 22:08:53.580 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- Radio Gender Male
+2016-10-03 22:08:54.752 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Customer First Name = John
+2016-10-03 22:08:54.931 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Customer Last Name = Smith
+2016-10-03 22:08:55.140 [pool-1-thread-1] INFO  method - ------------- SELECTING BY VALUE --- Drop Down Days = 14
+2016-10-03 22:08:55.435 [pool-1-thread-1] INFO  method - ------------- SELECTING BY VALUE --- Drop Down Months = 12
+2016-10-03 22:08:55.640 [pool-1-thread-1] INFO  method - ------------- SELECTING BY VALUE --- Drop Down Years = 1990
+2016-10-03 22:08:55.835 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Passwd = 12345
+2016-10-03 22:08:55.994 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Address = 1234 w23th Ave
+2016-10-03 22:08:56.177 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field City = New York
+2016-10-03 22:08:56.349 [pool-1-thread-1] INFO  method - ------------- SELECTING BY VISIBLE TEXT --- Drop Down State = Indiana
+2016-10-03 22:08:56.519 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Post Code = V5T1HR
+2016-10-03 22:08:56.704 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Phone Mobile = 7756457009
+2016-10-03 22:08:56.852 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- Btn Submit Acc
+2016-10-03 22:08:58.063 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case CreateAccount*****
+2016-10-03 22:08:58.064 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case CreateAccount*****
+2016-10-03 22:08:58.065 [pool-1-thread-1] INFO  method - ------------- goTo accountTab
+2016-10-03 22:08:58.065 [pool-1-thread-1] INFO  method - ------------- selectSignInTab
+2016-10-03 22:08:58.101 [pool-1-thread-1] INFO  method - ------------- selecting Tab [[[[ChromeDriver: chrome on XP (f1ab9cf922d99ed2883351abeb9ec05d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 22:08:58.115 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- [[[[ChromeDriver: chrome on XP (f1ab9cf922d99ed2883351abeb9ec05d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 22:08:59.194 [pool-1-thread-1] WARN  logExceptions - !!!!!!!!!!!!!!!!!! Exception logged - Stale element exception !!!!!!!!!!!!!! 
+2016-10-03 22:08:59.195 [pool-1-thread-1] INFO  method - ------------- goTo createAccountTab
+2016-10-03 22:08:59.195 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field User Email = autopractice14@autopractice.com
+2016-10-03 22:08:59.398 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- Btn Sign Up
+2016-10-03 22:08:59.539 [pool-1-thread-1] INFO  method - ------------- goTo registerUserPage
+2016-10-03 22:08:59.539 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- Radio Gender Male
+2016-10-03 22:09:05.353 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case Login*****
+2016-10-03 22:09:05.430 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case Login*****
+2016-10-03 22:09:05.455 [pool-1-thread-1] INFO  method - ------------- goTo accountTab
+2016-10-03 22:09:05.455 [pool-1-thread-1] INFO  method - ------------- selectSignInTab
+2016-10-03 22:09:05.496 [pool-1-thread-1] INFO  method - ------------- selecting Tab [[[[ChromeDriver: chrome on XP (f1ab9cf922d99ed2883351abeb9ec05d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 22:09:05.508 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- [[[[ChromeDriver: chrome on XP (f1ab9cf922d99ed2883351abeb9ec05d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 22:09:06.644 [pool-1-thread-1] WARN  logExceptions - !!!!!!!!!!!!!!!!!! Exception logged - Stale element exception !!!!!!!!!!!!!! 
+2016-10-03 22:09:06.644 [pool-1-thread-1] INFO  method - ------------- goTo LoginTab
+2016-10-03 22:09:06.648 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field User Email = autopractice15@autopractice.com
+2016-10-03 22:09:06.821 [pool-1-thread-1] INFO  method - ------------- SENDING KEYS TO ---Field Password = 12345
+2016-10-03 22:09:06.946 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- Btn Sign In
+2016-10-03 22:09:07.675 [pool-1-thread-1] INFO  method - ------------- signOut
+2016-10-03 22:09:07.675 [pool-1-thread-1] INFO  method - ------------- selectSignOutTab
+2016-10-03 22:09:07.724 [pool-1-thread-1] INFO  method - ------------- selecting Tab [[[[ChromeDriver: chrome on XP (f1ab9cf922d99ed2883351abeb9ec05d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[2]/a]] -> xpath: ./..]
+2016-10-03 22:09:07.737 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- [[[[ChromeDriver: chrome on XP (f1ab9cf922d99ed2883351abeb9ec05d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[2]/a]] -> xpath: ./..]
+2016-10-03 22:09:08.731 [pool-1-thread-1] WARN  logExceptions - !!!!!!!!!!!!!!!!!! Exception logged - Stale element exception !!!!!!!!!!!!!! 
+2016-10-03 22:09:08.734 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case PurchaseTShirt*****
+2016-10-03 22:09:08.736 [pool-1-thread-1] INFO  onTestStart - ********* Starting test case PurchaseTShirt*****
+2016-10-03 22:09:08.736 [pool-1-thread-1] INFO  method - ------------- goTo accountTab
+2016-10-03 22:09:08.736 [pool-1-thread-1] INFO  method - ------------- selectSignInTab
+2016-10-03 22:09:08.770 [pool-1-thread-1] INFO  method - ------------- selecting Tab [[[[ChromeDriver: chrome on XP (f1ab9cf922d99ed2883351abeb9ec05d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 22:09:08.782 [pool-1-thread-1] INFO  method - ------------- CLICKING ON --- [[[[ChromeDriver: chrome on XP (f1ab9cf922d99ed2883351abeb9ec05d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]] -> xpath: ./..]
+2016-10-03 22:09:09.784 [pool-1-thread-1] WARN  logExceptions - !!!!!!!!!!!!!!!!!! Exception logged - Stale element exception !!!!!!!!!!!!!! 
+2016-10-03 22:09:09.784 [pool-1-thread-1] INFO  method - ------------- goTo LoginTab
