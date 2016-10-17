@@ -24,9 +24,8 @@
     <classes>
       <class name="test.java.com.automation.practice.APtests">
         <methods>
-          <include name="CreateAccount"/>
+          <include name="CreateAccountWithWrongPostalCode"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- test.java.com.automation.practice.APtests -->
     </classes>

@@ -34,11 +34,17 @@ public class Browser {
         else
             browserName = System.getProperty("browser");
 
-        if (browserName.equalsIgnoreCase(
+/*        if (browserName.equalsIgnoreCase(
                 "Firefox")) {
         	FirefoxProfile profile = new FirefoxProfile();
         	profile.setEnableNativeEvents(true);
-            driver = new FirefoxDriver(profile);
+            driver = new FirefoxDriver(profile);*/
+        if (browserName
+                .equalsIgnoreCase("Firefox")) {
+            System.setProperty("webdriver.firefox.driver",
+                    System.getProperty("user.dir")
+                            + "\\browserDrivers\\firefoxdriver.exe");
+            driver = new FirefoxDriver();
         } else if (browserName
                 .equalsIgnoreCase("Chrome")) {
             System.setProperty("webdriver.chrome.driver",
