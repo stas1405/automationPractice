@@ -5,7 +5,7 @@
     <classes>
       <class name="test.java.com.automation.practice.APtests">
         <methods>
-          <include name="PurchaseTShirt"/>
+          <include name="Login"/>
         </methods>
       </class> <!-- test.java.com.automation.practice.APtests -->
     </classes>

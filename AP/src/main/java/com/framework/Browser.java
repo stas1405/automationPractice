@@ -41,10 +41,12 @@ public class Browser {
             driver = new FirefoxDriver(profile);*/
         if (browserName
                 .equalsIgnoreCase("Firefox")) {
-            System.setProperty("webdriver.firefox.driver",
-                    System.getProperty("user.dir")
-                            + "\\browserDrivers\\firefoxdriver.exe");
-            driver = new FirefoxDriver();
+            System.setProperty("webdriver.gecko.driver",
+                   System.getProperty("user.dir")
+                          + "\\browserDrivers\\geckodriver.exe");
+            FirefoxProfile profile = new FirefoxProfile();
+            profile.setEnableNativeEvents(true);
+            driver = new FirefoxDriver(profile);
         } else if (browserName
                 .equalsIgnoreCase("Chrome")) {
             System.setProperty("webdriver.chrome.driver",
@@ -67,7 +69,7 @@ public class Browser {
             capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
             driver = new InternetExplorerDriver(capabilities);
         }
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
         driver.manage().window().setSize(new Dimension(1280,780));
         driver.manage().window().setSize(new Dimension(1280,780));
     }

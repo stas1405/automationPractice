@@ -2,41 +2,52 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="AP Smoke Test Suite" duration-ms="1384" started-at="2016-10-17T20:39:33Z" finished-at="2016-10-17T20:39:34Z">
+  <suite name="AP Smoke Test Suite" duration-ms="7532" started-at="2016-10-20T17:07:18Z" finished-at="2016-10-20T17:07:26Z">
     <groups>
       <group name="regression">
-        <method signature="APtests.CreateAccount()[pri:2, instance:test.java.com.automation.practice.APtests@1d16f93d]" name="CreateAccount" class="test.java.com.automation.practice.APtests"/>
-        <method signature="APtests.CreateAccountWithWrongPostalCode()[pri:1, instance:test.java.com.automation.practice.APtests@1d16f93d]" name="CreateAccountWithWrongPostalCode" class="test.java.com.automation.practice.APtests"/>
-        <method signature="APtests.Login()[pri:3, instance:test.java.com.automation.practice.APtests@1d16f93d]" name="Login" class="test.java.com.automation.practice.APtests"/>
-        <method signature="APtests.PurchaseTShirt()[pri:4, instance:test.java.com.automation.practice.APtests@1d16f93d]" name="PurchaseTShirt" class="test.java.com.automation.practice.APtests"/>
+        <method signature="APtests.CreateAccount()[pri:2, instance:test.java.com.automation.practice.APtests@2d928643]" name="CreateAccount" class="test.java.com.automation.practice.APtests"/>
+        <method signature="APtests.CreateAccountWithWrongPostalCode()[pri:1, instance:test.java.com.automation.practice.APtests@2d928643]" name="CreateAccountWithWrongPostalCode" class="test.java.com.automation.practice.APtests"/>
+        <method signature="APtests.Login()[pri:3, instance:test.java.com.automation.practice.APtests@2d928643]" name="Login" class="test.java.com.automation.practice.APtests"/>
+        <method signature="APtests.PurchaseTShirt()[pri:4, instance:test.java.com.automation.practice.APtests@2d928643]" name="PurchaseTShirt" class="test.java.com.automation.practice.APtests"/>
       </group> <!-- regression -->
       <group name="ap">
-        <method signature="APtests.CreateAccount()[pri:2, instance:test.java.com.automation.practice.APtests@1d16f93d]" name="CreateAccount" class="test.java.com.automation.practice.APtests"/>
-        <method signature="APtests.CreateAccountWithWrongPostalCode()[pri:1, instance:test.java.com.automation.practice.APtests@1d16f93d]" name="CreateAccountWithWrongPostalCode" class="test.java.com.automation.practice.APtests"/>
-        <method signature="APtests.Login()[pri:3, instance:test.java.com.automation.practice.APtests@1d16f93d]" name="Login" class="test.java.com.automation.practice.APtests"/>
-        <method signature="APtests.PurchaseTShirt()[pri:4, instance:test.java.com.automation.practice.APtests@1d16f93d]" name="PurchaseTShirt" class="test.java.com.automation.practice.APtests"/>
+        <method signature="APtests.CreateAccount()[pri:2, instance:test.java.com.automation.practice.APtests@2d928643]" name="CreateAccount" class="test.java.com.automation.practice.APtests"/>
+        <method signature="APtests.CreateAccountWithWrongPostalCode()[pri:1, instance:test.java.com.automation.practice.APtests@2d928643]" name="CreateAccountWithWrongPostalCode" class="test.java.com.automation.practice.APtests"/>
+        <method signature="APtests.Login()[pri:3, instance:test.java.com.automation.practice.APtests@2d928643]" name="Login" class="test.java.com.automation.practice.APtests"/>
+        <method signature="APtests.PurchaseTShirt()[pri:4, instance:test.java.com.automation.practice.APtests@2d928643]" name="PurchaseTShirt" class="test.java.com.automation.practice.APtests"/>
       </group> <!-- ap -->
     </groups>
-    <test name="Automation Practice Tests" duration-ms="1384" started-at="2016-10-17T20:39:33Z" finished-at="2016-10-17T20:39:34Z">
+    <test name="Automation Practice Tests" duration-ms="7532" started-at="2016-10-20T17:07:18Z" finished-at="2016-10-20T17:07:26Z">
       <class name="test.java.com.automation.practice.APtests">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:test.java.com.automation.practice.APtests@1d16f93d]" name="setUp" is-config="true" duration-ms="0" started-at="2016-10-17T13:39:33Z" finished-at="2016-10-17T13:39:33Z">
-          <exception class="java.lang.IllegalStateException">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:test.java.com.automation.practice.APtests@2d928643]" name="setUp" is-config="true" duration-ms="0" started-at="2016-10-20T10:07:18Z" finished-at="2016-10-20T10:07:18Z">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
             <message>
-              <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
+              <![CDATA[Requested size exceeds screen size
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-3B5I3LU', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIAOpQVEkAAAAAAAAAAAAAAAAHAAAAdXNlci5qc51WTW/bMAy971cMOW3AKqTretlOXdcBA4Z1aFDsKMgSbauRJU0fcfPvR/mjSRNHbndKbJMS+fj4yOjBUeugfLconGnxiXhWQvdf6oo0TLXMAQHNCgVi8eFtyZSH91/exJ2nYAFtrHEhudTAVKj7Z4JGG8ln/DWE1rg1qUOwxNbS19uz9Nky788U6CrU6Pjx8vK52xiwAybwR0AAHkB8l86HK4yFK0C34OJhuKbBvB4pr51pgHrupA3URU2DbJLLxXL6osAKTxAOfauvlfEwnc1oLUyrlWEC79KsSsDWpv1Tg14hWgmpaXeLQdng02W0MYKpGexhE4xRnoBzxnGjvVH7cB+n72WljUbUGmgKcKvu0edz8eC9RKtgkAsOfETcSgyUcsd8nfdVUq+JsaApPAZwmqlUzFczqExlvYt6+rIWCuHkBp8Z54DljBoz90gHysEFP4nEU6Wkt4ptQdycL1e/DDInlfbTtDG+Erf6j9RYX3++JBIvMvd3P9FjwQoTw+dCMb1eHHOuT4gypeiDRzBSnLKH/ji2RysRbrQlbS0DKOkDHvA3SneKCYkGaxnI0E0j6zC5xIUsAIphYbAB8lTzibfRkhq7xuLZtAXFUwdFl0q6OEg5VVt3rCHRYoGBaIS23N6jyat1JNrUSjfZ8IBHJ8MWmaIA/xEfnOSBGicrqak1SvJtnqoaWmw7MuSTqeazQPuTSXq5ikUju1b53b286sj4Mt2cPCab8VN3DoVJRUHLE+q160NMs+34e9yIpizRDs6YtZ4g+0xLiy0VULKowrScjLBzbwf+TEd7zIcs20Y6I/dRqYLbkl4ZO/uPc7bZo0dEbu5/XpELwnZFOk7vgW1YPyGyonpYirFH8jw6jtvBQzfEspf0NE3H5/PcQ5zFYL71SrDiSIIkOufLUxran0o1C/hIYQN6RkH3JuMtMmw2nEIZvu407UWF8sAcrwfazE3dhvTkJiI2Nls0JPmLqPiMLwYBclJMC+qRBh2Kz8X05tOL9dnYfciiEGdG8mB7QlmGFWd+t9kbnL4b67vBiQoUO6nOIpeYNR3EXuuYftJ1K9APfd1vKSeXs2Fk0U6sBMKoK5rkf4YkNeC05DXw9bder772X14/zQgTQqaI2cwgmNyZ/3dXVqaq0sthictK/14vdRlfozRitxZSJfZpWdVBnRh2e67jjf+jbHRsBNLgWtgRcZFWSQcHGO02mbR5IrFxf5xZZXZ9r0ofbb8B7JaMf1BLBwh1hce1pQMAALUMAABQSwECFAAUAAgICADqUFRJdYXHtaUDAAC1DAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAADaAwAAAAA=}, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: c658f5f8-a805-47ac-a232-c06c02bc8bfe]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:197)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
-	at org.openqa.selenium.firefox.GeckoDriverService.access$000(GeckoDriverService.java:37)
-	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:95)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
-	at org.openqa.selenium.firefox.FirefoxDriver.createCommandExecutor(FirefoxDriver.java:277)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:247)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:242)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:238)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-	at main.java.com.framework.Browser.startBrowser(Browser.java:47)
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: Requested size exceeds screen size
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-3B5I3LU', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], profile=UEsDBBQACAgIAOpQVEkAAAAAAAAAAAAAAAAHAAAAdXNlci5qc51WTW/bMAy971cMOW3AKqTretlOXdcBA4Z1aFDsKMgSbauRJU0fcfPvR/mjSRNHbndKbJMS+fj4yOjBUeugfLconGnxiXhWQvdf6oo0TLXMAQHNCgVi8eFtyZSH91/exJ2nYAFtrHEhudTAVKj7Z4JGG8ln/DWE1rg1qUOwxNbS19uz9Nky788U6CrU6Pjx8vK52xiwAybwR0AAHkB8l86HK4yFK0C34OJhuKbBvB4pr51pgHrupA3URU2DbJLLxXL6osAKTxAOfauvlfEwnc1oLUyrlWEC79KsSsDWpv1Tg14hWgmpaXeLQdng02W0MYKpGexhE4xRnoBzxnGjvVH7cB+n72WljUbUGmgKcKvu0edz8eC9RKtgkAsOfETcSgyUcsd8nfdVUq+JsaApPAZwmqlUzFczqExlvYt6+rIWCuHkBp8Z54DljBoz90gHysEFP4nEU6Wkt4ptQdycL1e/DDInlfbTtDG+Erf6j9RYX3++JBIvMvd3P9FjwQoTw+dCMb1eHHOuT4gypeiDRzBSnLKH/ji2RysRbrQlbS0DKOkDHvA3SneKCYkGaxnI0E0j6zC5xIUsAIphYbAB8lTzibfRkhq7xuLZtAXFUwdFl0q6OEg5VVt3rCHRYoGBaIS23N6jyat1JNrUSjfZ8IBHJ8MWmaIA/xEfnOSBGicrqak1SvJtnqoaWmw7MuSTqeazQPuTSXq5ikUju1b53b286sj4Mt2cPCab8VN3DoVJRUHLE+q160NMs+34e9yIpizRDs6YtZ4g+0xLiy0VULKowrScjLBzbwf+TEd7zIcs20Y6I/dRqYLbkl4ZO/uPc7bZo0dEbu5/XpELwnZFOk7vgW1YPyGyonpYirFH8jw6jtvBQzfEspf0NE3H5/PcQ5zFYL71SrDiSIIkOufLUxran0o1C/hIYQN6RkH3JuMtMmw2nEIZvu407UWF8sAcrwfazE3dhvTkJiI2Nls0JPmLqPiMLwYBclJMC+qRBh2Kz8X05tOL9dnYfciiEGdG8mB7QlmGFWd+t9kbnL4b67vBiQoUO6nOIpeYNR3EXuuYftJ1K9APfd1vKSeXs2Fk0U6sBMKoK5rkf4YkNeC05DXw9bder772X14/zQgTQqaI2cwgmNyZ/3dXVqaq0sthictK/14vdRlfozRitxZSJfZpWdVBnRh2e67jjf+jbHRsBNLgWtgRcZFWSQcHGO02mbR5IrFxf5xZZXZ9r0ofbb8B7JaMf1BLBwh1hce1pQMAALUMAABQSwECFAAUAAgICADqUFRJdYXHtaUDAAC1DAAABwAAAAAAAAAAAAAAAAAAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAADaAwAAAAA=}, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: c658f5f8-a805-47ac-a232-c06c02bc8bfe
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.setSize(RemoteWebDriver.java:847)
+	at main.java.com.framework.Browser.startBrowser(Browser.java:73)
 	at main.java.com.framework.AppManager.<init>(AppManager.java:17)
 	at test.java.com.autoPractice.TestBase.setUp(TestBase.java:23)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -54,11 +65,11 @@
 	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="CreateAccountWithWrongPostalCode()[pri:1, instance:test.java.com.automation.practice.APtests@1d16f93d]" name="CreateAccountWithWrongPostalCode" duration-ms="0" started-at="2016-10-17T13:39:34Z" finished-at="2016-10-17T13:39:34Z">
+        <test-method status="FAIL" signature="CreateAccountWithWrongPostalCode()[pri:1, instance:test.java.com.automation.practice.APtests@2d928643]" name="CreateAccountWithWrongPostalCode" duration-ms="0" started-at="2016-10-20T10:07:26Z" finished-at="2016-10-20T10:07:26Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
