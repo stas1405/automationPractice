@@ -28,6 +28,7 @@ public class SelectedProductPage extends AbstarctAutoPracticeBase{
 	
 	public SelectedProductPage withBlueColor(){
 		//switchToElem(colorBlue);
+		waits().isElementPresent(colorBlue);
 		clickOn(colorBlue);
 		return this;
 	}

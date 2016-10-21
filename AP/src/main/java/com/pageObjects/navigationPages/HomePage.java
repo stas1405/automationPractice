@@ -46,11 +46,13 @@ public class HomePage extends AbstractNavigation{
 	public HomePage selectSignInTab() {
 		app.method("selectSignInTab");
 		selectTab(tabSignIn.findElement(By.xpath("./..")));
+		
 		return this;
 	}
 	
 	public HomePage selectSignOutTab() {
 		app.method("selectSignOutTab");
+		waits().isElementPresent(tabSignOut);
 		selectTab(tabSignOut.findElement(By.xpath("./..")));
 		return this;
 	}

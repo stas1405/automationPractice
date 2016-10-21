@@ -16,6 +16,7 @@ public class Messages extends HtmlElement {
 	private WebElement errorID;
 
 	public void validateErrorMessage(String expectedMessage) {
+		
 		try {
 			assertThat(errorID.getText(), containsString(expectedMessage));
 		} catch (NoSuchElementException e) {

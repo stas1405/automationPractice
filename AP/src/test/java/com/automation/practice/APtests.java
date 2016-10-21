@@ -1,4 +1,8 @@
 package test.java.com.automation.practice;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.StringContains.containsString;
+
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import main.java.com.framework.TestListener;
@@ -32,16 +36,18 @@ public class APtests extends TestBase{
 	public void Login(){
 		goTo.accountTab();
 		goTo.LoginPage().loginToAccount()
-		.withEmail("autopractice15@autopractice.com")
+		.withEmail("autopractice14@autopractice.com")
 		.withPassword("12345")
 		.login();
+		assertThat(goTo.AccountPage().checkIfLoggedIn(), containsString("My account"));
 		goTo.SignOut();
+		assertThat(goTo.AccountPage().checkIfLoggedOut(), containsString("Authentication"));
 	}
 	
 	@Test(groups={"regression","ap"}, priority = 2) 
 	public void CreateAccount(){
 		goTo.accountTab();
-		goTo.CreateAccountPage().createAccount().withEmail("autopractice14@autopractice.com");
+		goTo.CreateAccountPage().createAccount().withEmail("autopractice27@autopractice.com");
 		goTo.RegisterUserPage().registerUser()
 		.withMaleGender()
 		.withCustomerFirstName("John")
@@ -54,13 +60,16 @@ public class APtests extends TestBase{
 		.withLPostalCode("12345")
 		.withMobilePhone("7756457009")
 		.register();
+		assertThat(goTo.AccountPage().checkIfLoggedIn(), containsString("My account"));
 		goTo.SignOut();
+		assertThat(goTo.AccountPage().checkIfLoggedOut(), containsString("Authentication"));
 		
 	}
 	@Test(groups={"regression","ap"}, priority = 4) 
 	public void PurchaseTShirt(){
 		goTo.accountTab();
 		goTo.LoginPage().loginToAccountAs("autopractice14@autopractice.com", "12345");
+		assertThat(goTo.AccountPage().checkIfLoggedIn(), containsString("My account"));
 		goTo.TShirtPage().selectSleevTshirt();
 		goTo.SelectedProductPage().withBlueColor().withMediumSize().addToCart();
 		goTo.CartPage()

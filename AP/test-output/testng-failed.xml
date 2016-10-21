@@ -15,19 +15,4 @@
       <class name="test.java.com.automation.practice.APtests"/>
     </classes>
   </test> <!-- Automation Practice Tests -->
-  <test name="Automation Practice Tests(failed)" parallel="classes">
-    <groups>
-      <run>
-        <include name="ap"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="test.java.com.automation.practice.APtests">
-        <methods>
-          <include name="CreateAccountWithWrongPostalCode"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.java.com.automation.practice.APtests -->
-    </classes>
-  </test> <!-- Automation Practice Tests(failed) -->
 </suite> <!-- Failed suite [AP Smoke Test Suite] -->

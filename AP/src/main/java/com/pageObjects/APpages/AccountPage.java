@@ -1,5 +1,6 @@
 package main.java.com.pageObjects.APpages;
 
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -18,5 +19,19 @@ public class AccountPage extends AbstarctAutoPracticeBase{
 	
 	@FindBy(id="page")
 	private Messages errors;
+	
+	@FindBy(className="navigation_page")
+	private WebElement navPage;
+	
+	public String checkIfLoggedIn(){
+		waits().waitUntilTextAppear("My account");
+		return navPage.getText();
+	}
+	
+	public String checkIfLoggedOut(){
+		waits().waitUntilTextAppear("Authentication");
+		return navPage.getText();
+	}
+	
 
 }

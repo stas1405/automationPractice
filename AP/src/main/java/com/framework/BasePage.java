@@ -28,6 +28,9 @@ public class BasePage {
 		
 	@FindBy(id="page")
 	private Messages errors;
+	
+	@FindBy(className="alert")
+	private WebElement error;
 
 	public BasePage(AppManager manager) {
 		this.driver = manager.getBrowser().getDriver();
@@ -128,6 +131,7 @@ public class BasePage {
 	}
 	
 	public BasePage verifyError(String errorMessage){
+		waits().isElementPresent(error);
 		errors.validateErrorMessage(errorMessage);
 		return this;
 	}

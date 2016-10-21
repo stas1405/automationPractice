@@ -67,6 +67,11 @@ public class Waits extends BasePage {
 	public void waitUntilCartWindowAppear() {
 		waitForVisibilityOfElement(20, By.xpath("//*[@id='layer_cart']/div[1]/div[2]/div[4]/a/span"));
 	}
+	
+	public void waitUntilTextAppear(String text){
+		app.method("waitForTextDisplayed");
+		new WebDriverWait(driver, 20).until(ExpectedConditions.textToBePresentInElement(By.className("navigation_page"), text));
+	}
 
 	public void waitForElementToBeDisabled(WebElement element) {
 		waitForAttributeToBe(element, "disabled", "true");

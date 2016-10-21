@@ -8,6 +8,7 @@ import main.java.com.pageObjects.APpages.RegisterUserPage;
 import main.java.com.pageObjects.APpages.TShirtPage;
 import main.java.com.pageObjects.APpages.SelectedProductPage;
 import main.java.com.pageObjects.APpages.CartPage;
+import main.java.com.pageObjects.APpages.AccountPage;
 
 public class Navigation extends BasePage {
 
@@ -33,6 +34,7 @@ public class Navigation extends BasePage {
 	
 	public void SignOut(){
 		app.method("signOut");
+		
 		NavigationPages().HomePage().selectSignOutTab();
 	}
 	
@@ -64,5 +66,11 @@ public class Navigation extends BasePage {
 		app.method("goTo registerUserPage");
 		Application().RegisterUserPage();
 		return Application().RegisterUserPage();
+	}
+
+	public AccountPage AccountPage() {
+		app.method("goTo account page");
+		Application().AccountPage();
+		return Application().AccountPage();
 	}
 }
