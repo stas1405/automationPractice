@@ -2,11 +2,10 @@ package test.java.com.automation.practice;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.StringContains.containsString;
 
-import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import main.java.com.framework.TestListener;
-import main.resources.ExtentReporterNG;
+import main.java.com.resources.ExtentReporterNG;
 import test.java.com.autoPractice.TestBase;
 
 

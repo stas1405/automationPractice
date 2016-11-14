@@ -1,4 +1,4 @@
-package main.resources;
+package main.java.com.resources;
 import java.util.UUID;
 
 public class EmailGenerator {

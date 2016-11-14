@@ -4,7 +4,8 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Reporter;
-import main.resources.PropertiesReader;
+
+import main.java.com.resources.PropertiesReader;
 
 
 public class AppManager {

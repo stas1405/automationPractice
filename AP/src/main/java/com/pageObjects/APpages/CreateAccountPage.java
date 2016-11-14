@@ -4,7 +4,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import main.java.com.framework.AppManager;
 import main.java.com.pageObjects.elements.Messages;
-import main.resources.EmailGenerator;
+import main.java.com.resources.EmailGenerator;
 import ru.yandex.qatools.htmlelements.annotations.Timeout;
 import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementDecorator;
 import ru.yandex.qatools.htmlelements.loader.decorator.HtmlElementLocatorFactory;

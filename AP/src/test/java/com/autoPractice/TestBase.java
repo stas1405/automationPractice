@@ -9,7 +9,7 @@ import main.java.com.framework.AppManager;
 import main.java.com.framework.TestListener;
 import main.java.com.framework.TestSteps;
 import main.java.com.libraries.Navigation;
-import main.resources.ExtentReporterNG;
+import main.java.com.resources.ExtentReporterNG;
 
 
 @Listeners({TestListener.class, ExtentReporterNG.class})

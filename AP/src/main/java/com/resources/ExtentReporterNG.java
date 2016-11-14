@@ -1,4 +1,4 @@
-package main.resources;
+package main.java.com.resources;
 
 import java.util.*;
 
@@ -17,6 +17,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 import main.java.com.framework.TestSteps;
+import main.java.com.resources.PropertiesReader;
 
 import java.io.File;
 
